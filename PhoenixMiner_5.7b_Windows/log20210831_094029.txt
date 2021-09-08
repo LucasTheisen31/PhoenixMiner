@@ -1,0 +1,229 @@
+2021.08.31:09:40:29.455: main Phoenix Miner 5.7b Windows/msvc - Release build
+2021.08.31:09:40:29.455: main Cmd line: -pool ssl://eth-br.flexpool.io:5555 -pool2 ssl://eth-us-east.flexpool.io:5555 -wal 0x42F2DA498a7a852A2918B2B7291E0178BEb05E0A.PhoenixMiner5.7b 
+2021.08.31:09:40:29.456: main No CUDA driver found
+2021.08.31:09:40:30.930: main OpenCL driver version: 20.11.2
+2021.08.31:09:40:30.948: main Available GPUs for mining:
+2021.08.31:09:40:30.948: main GPU1: Radeon RX 580 Series (pcie 3), OpenCL 2.0, 8 GB VRAM, 36 CUs
+2021.08.31:09:40:30.951: main ADL library initialized
+2021.08.31:09:40:32.162: main Eth: Loading pools from epools.txt
+2021.08.31:09:40:32.163: main Eth: the pool list contains 10 pools (2 from command-line)
+2021.08.31:09:40:32.163: main Eth: primary pool: ssl://eth-br.flexpool.io:5555
+2021.08.31:09:40:32.166: main Starting GPU mining
+2021.08.31:09:40:32.166: main Matched GPU1 to ADL adapter index 0 (method 1)
+2021.08.31:09:40:32.193: main GPU1: AMD driver 20.11.2
+2021.08.31:09:40:32.193: main GPU1: Created ADL monitor for adapter 0; overdrive version: 7 (7)
+2021.08.31:09:40:32.193: main GPU1: using AMD driver ver 20.11.2
+2021.08.31:09:40:32.323: wdog Starting watchdog thread
+2021.08.31:09:40:32.905: main Eth: Connecting to ethash pool ssl://eth-br.flexpool.io:5555 (proto: EthProxy)
+2021.08.31:09:40:32.906: main GPU1: 35C 34% 9W
+GPUs power: 8.8 W
+2021.08.31:09:40:32.964: eths Eth: Connected to SSL ethash pool eth-br.flexpool.io:5555 (18.231.99.216)
+2021.08.31:09:40:33.010: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x42F2DA498a7a852A2918B2B7291E0178BEb05E0A.PhoenixMiner5.7b"]}
+
+2021.08.31:09:40:33.029: eths Eth: Received: {"id":1,"result":true,"error":null}
+2021.08.31:09:40:33.029: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:40:33.048: eths Eth: Received: {"id":5,"result":["0x2338e56312238a48da64b3bbd0945626ec357da547181a999467dfbf9bac86d3","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:33.049: eths Eth: New job #2338e563 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:40:33.050: GPU1 GPU1: Starting up... (0)
+2021.08.31:09:40:33.050: GPU1 GPU1: Generating ethash light cache for epoch #437
+2021.08.31:09:40:33.120: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.08.31:09:40:33.948: eths Eth: Received: {"id":0,"result":["0x5564b82f296915e556d615a0cb154c5178a4b623236afa1985c4b0d642b53b54","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:33.948: eths Eth: New job #5564b82f from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:40:36.595: GPU1 Light cache generated in 3.5 s (19.9 MB/s)
+2021.08.31:09:40:37.273: eths Eth: Received: {"id":0,"result":["0xb0beb418dbbf6a1f8ab67deaad24cc370f7e533d6c4078e87c4b80049cc84591","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:37.274: eths Eth: New job #b0beb418 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:40:37.461: GPU1 GPU1: Free VRAM: 7.948 GB; used: 0.052 GB
+2021.08.31:09:40:37.461: GPU1 GPU1: Allocating DAG (4.43 GB); good for epoch up to #439
+2021.08.31:09:40:37.470: GPU1 GPU1: Generating DAG for epoch #437
+2021.08.31:09:40:38.062: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.08.31:09:40:40.125: eths Eth: Received: {"id":0,"result":["0xa67865000e812e35f04cb7467c6ad459b06e9871885826ae05bd59a37eb45fac","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:40.125: eths Eth: New job #a6786500 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:40:40.649: GPU1 GPU1: DAG  18%
+2021.08.31:09:40:42.154: GPU1 GPU1: DAG  36%
+2021.08.31:09:40:43.015: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:40:43.035: eths Eth: Received: {"id":5,"result":["0xa67865000e812e35f04cb7467c6ad459b06e9871885826ae05bd59a37eb45fac","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:43.167: eths Eth: Received: {"id":0,"result":["0xa2ff0ac979b6b9c819ffecf225062f5d21c990bcdfb720e1d710ff21ca014f38","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:43.167: eths Eth: New job #a2ff0ac9 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:40:43.188: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.08.31:09:40:43.655: GPU1 GPU1: DAG  54%
+2021.08.31:09:40:45.478: GPU1 GPU1: DAG  71%
+2021.08.31:09:40:46.070: eths Eth: Received: {"id":0,"result":["0x48b2aa954c998ed2dca88925fd6420ba15f2e887c04805c2828bc407983364d6","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:46.070: eths Eth: New job #48b2aa95 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:40:46.985: GPU1 GPU1: DAG  88%
+2021.08.31:09:40:48.191: GPU1 GPU1: DAG generated in 10.7 s (421.6 MB/s)
+2021.08.31:09:40:48.194: GPU1 GPU1: Using Ethash OCL kernels (Ellesmere; -clkernel 1)
+2021.08.31:09:40:48.194: GPU1 GPU1: no -gt value specified, switching to auto-tune
+2021.08.31:09:40:48.194: GPU1 GPU1: starting auto-tune process
+2021.08.31:09:40:48.331: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.08.31:09:40:49.132: eths Eth: Received: {"id":0,"result":["0x0d7e162c952b6f07d9d35a66c2dc48e12d1758105f20480cf64a2e0cf9324bd7","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:49.132: eths Eth: New job #0d7e162c from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:40:52.381: eths Eth: Received: {"id":0,"result":["0x2d353a190e79879d7a97e0f70f4f7e1dd67d186e8b7b85b83a129e9b058b5f5f","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:52.381: eths Eth: New job #2d353a19 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:40:53.030: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:40:53.030: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1908d1e","0x7acf166a8736cd052e326f5017477a2689cc23c990d71511934bafc696e2b864"]}
+
+2021.08.31:09:40:53.050: eths Eth: Received: {"id":5,"result":["0x2d353a190e79879d7a97e0f70f4f7e1dd67d186e8b7b85b83a129e9b058b5f5f","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:53.476: main Eth speed: 27.523 MH/s, shares: 0/0/0, time: 0:00
+2021.08.31:09:40:58.588: main Eth speed: 26.738 MH/s, shares: 0/0/0, time: 0:00
+2021.08.31:09:40:58.928: eths Eth: Received: {"id":0,"result":["0x880f4af729a03cc27b7a12b8acbe1114c727e740855809a8aceb7ce64891ecf0","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661a"],"error":null}
+2021.08.31:09:40:58.929: eths Eth: New job #880f4af7 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:00.576: eths Eth: Received: {"id":0,"result":["0x7f60f752f085f48b625e31a1e7426a0f9440c95995c179be9dae69f3c5d60b3b","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661b"],"error":null}
+2021.08.31:09:41:00.576: eths Eth: New job #7f60f752 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:02.522: main GPU1: 46C 46% 72W
+GPUs power: 72.5 W; 369 kH/J
+2021.08.31:09:41:03.042: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:41:03.063: eths Eth: Received: {"id":6,"result":true,"error":null}
+2021.08.31:09:41:03.063: eths Eth: Received: {"id":5,"result":["0x7f60f752f085f48b625e31a1e7426a0f9440c95995c179be9dae69f3c5d60b3b","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661b"],"error":null}
+2021.08.31:09:41:03.554: eths Eth: Received: {"id":0,"result":["0x4ddb30a2bf69670cbe0058ee7492ac71353d9efb68071f832de126a2e68d48eb","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661b"],"error":null}
+2021.08.31:09:41:03.554: eths Eth: New job #4ddb30a2 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:03.746: main Eth speed: 24.064 MH/s, shares: 0/0/0, time: 0:00
+2021.08.31:09:41:06.296: eths Eth: Received: {"id":0,"result":["0xae123d284bacefa8924ad8627851372e422adb9bbf7ee733d1f18ea7776aa7bf","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661c"],"error":null}
+2021.08.31:09:41:06.296: eths Eth: New job #ae123d28 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:06.858: eths Eth: Received: {"id":0,"result":["0xfbf2380821bad63a46e7072e8968def78fec4ff23c03259e36f8e1346f7cab76","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661c"],"error":null}
+2021.08.31:09:41:06.858: eths Eth: New job #fbf23808 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:06.858: eths Eth: Received: {"id":0,"result":["0xa70f239ed166be71fc7a20df2d01a096b42019f587fa8790381b19f43001ba4b","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661c"],"error":null}
+2021.08.31:09:41:06.859: eths Eth: New job #a70f239e from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:06.859: eths Eth: Received: {"id":0,"result":["0x27ffbdb120a0f958ae1e08591a4302c7eedf9d0a289d6aebc2758a27aa1ea3bf","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661c"],"error":null}
+2021.08.31:09:41:06.859: eths Eth: New job #27ffbdb1 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:08.759: eths Eth: Received: {"id":0,"result":["0x391f5ba7d16a9e586a03b128acc0e8a26569b7d8d14375286b381059f7d8822f","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661d"],"error":null}
+2021.08.31:09:41:08.759: eths Eth: New job #391f5ba7 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:08.867: main Eth speed: 23.203 MH/s, shares: 0/0/0, time: 0:00
+2021.08.31:09:41:10.418: GPU1 Eth: GPU1: ETH share found!
+2021.08.31:09:41:10.418: eths Eth: Send: {"id":4,"jsonrpc":"2.0","method":"eth_submitWork","params":["0x4c4fd39a74d13ad8","0x391f5ba7d16a9e586a03b128acc0e8a26569b7d8d14375286b381059f7d8822f","0x175b0f083c09082cdab51951f47da6e1bd68ca85c676be9cd3cb0236c38b7e44"]}
+
+2021.08.31:09:41:10.419: eths Eth: Share actual difficulty: 65.3 GH (!)
+2021.08.31:09:41:10.437: eths Eth: Received: {"id":4,"result":true,"error":null}
+2021.08.31:09:41:10.437: eths Eth: Share accepted in 19 ms
+2021.08.31:09:41:12.433: eths Eth: Received: {"id":0,"result":["0xaafd6db4824708599e2930f88b44cc6fa26ae9591d7326719b936897518c1654","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661d"],"error":null}
+2021.08.31:09:41:12.433: eths Eth: New job #aafd6db4 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:13.056: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:41:13.056: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0x7acf166a8736cd052e326f5017477a2689cc23c990d71511934bafc696e2b864"]}
+
+2021.08.31:09:41:13.075: eths Eth: Received: {"id":5,"result":["0xaafd6db4824708599e2930f88b44cc6fa26ae9591d7326719b936897518c1654","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661d"],"error":null}
+2021.08.31:09:41:14.022: main Eth speed: 25.300 MH/s, shares: 1/0/0, time: 0:00
+2021.08.31:09:41:16.115: eths Eth: Received: {"id":0,"result":["0x064236dbd0112e76542849ace84f4314d8df562343cb7141510299267d2032a1","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661d"],"error":null}
+2021.08.31:09:41:16.115: eths Eth: New job #064236db from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:17.925: main  
+2021.08.31:09:41:17.925: main *** 0:00 *** 8/31 09:41 **************************************
+2021.08.31:09:41:17.928: main Eth: Mining ETH on ssl://eth-br.flexpool.io:5555 for 0:00
+2021.08.31:09:41:17.928: main 1 GPU(s) are auto-tuning. Hashrate may be low until they are ready.
+2021.08.31:09:41:17.928: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.08.31:09:41:17.928: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.08.31:09:41:17.928: main Eth: Maximum difficulty of found share: 65.3 GH (!)
+2021.08.31:09:41:17.928: main Eth: Average speed (5 min): 0.000 MH/s
+2021.08.31:09:41:17.928: main  
+2021.08.31:09:41:18.335: eths Eth: Received: {"id":0,"result":["0x343b240d618a598d3b5a22be827252b68ef233f96db81cfbea90efab091aa0c3","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661d"],"error":null}
+2021.08.31:09:41:18.335: eths Eth: New job #343b240d from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:19.159: main Eth speed: 28.383 MH/s, shares: 1/0/0, time: 0:00
+2021.08.31:09:41:21.311: eths Eth: Received: {"id":0,"result":["0xf74a68e6dfdbed4435308955a073e1daf74c3dd6e64726bf6acf32c722b07dc3","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661d"],"error":null}
+2021.08.31:09:41:21.311: eths Eth: New job #f74a68e6 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:23.067: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:41:23.224: eths Eth: Received: {"id":0,"result":["0xec5ca7235accaf35763de0f4cc936e8071287aff72c4803b001df90d3a508dac","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661e"],"error":null}
+2021.08.31:09:41:23.224: eths Eth: New job #ec5ca723 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:23.224: eths Eth: Received: {"id":0,"result":["0xbbf9ce051269310ea1c284e5b45e6b34b440a496e51b544ef125b2f9871fb996","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661e"],"error":null}
+2021.08.31:09:41:23.224: eths Eth: New job #bbf9ce05 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:23.375: eths Eth: Received: {"id":6,"result":true,"error":null}
+2021.08.31:09:41:23.375: eths Eth: Received: {"id":5,"result":["0xbbf9ce051269310ea1c284e5b45e6b34b440a496e51b544ef125b2f9871fb996","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661e"],"error":null}
+2021.08.31:09:41:24.346: main Eth speed: 29.932 MH/s, shares: 1/0/0, time: 0:00
+2021.08.31:09:41:25.528: eths Eth: Received: {"id":0,"result":["0xc3f3e6f7107516131c05e9e93c270c9612f6c8c27f8e94d63b8582a5eba33c40","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc8661f"],"error":null}
+2021.08.31:09:41:25.528: eths Eth: New job #c3f3e6f7 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:29.479: main Eth speed: 30.373 MH/s, shares: 1/0/0, time: 0:00
+2021.08.31:09:41:31.201: eths Eth: Received: {"id":0,"result":["0xa036bdc5f5f4c8ed9c7d0382711caa210620f6ab62642e91c727eab99eb0efb2","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86620"],"error":null}
+2021.08.31:09:41:31.201: eths Eth: New job #a036bdc5 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:33.074: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:41:33.074: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0x7acf166a8736cd052e326f5017477a2689cc23c990d71511934bafc696e2b864"]}
+
+2021.08.31:09:41:33.093: eths Eth: Received: {"id":5,"result":["0xa036bdc5f5f4c8ed9c7d0382711caa210620f6ab62642e91c727eab99eb0efb2","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86620"],"error":null}
+2021.08.31:09:41:33.853: eths Eth: Received: {"id":0,"result":["0x2016916fe92a8f640f98f75d7711f4f832ef0be3e105c3f35b88dd189b629013","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86620"],"error":null}
+2021.08.31:09:41:33.853: eths Eth: New job #2016916f from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:33.882: main GPU1: 51C 41% 78W
+GPUs power: 78.2 W; 388 kH/J
+2021.08.31:09:41:34.491: main Eth speed: 30.942 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:41:34.798: eths Eth: Received: {"id":0,"result":["0x302d58828e7b8d1ae7d782c5a93832a83dacc4c25990b80a0ccfaf95addee568","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86621"],"error":null}
+2021.08.31:09:41:34.798: eths Eth: New job #302d5882 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:35.081: eths Eth: Received: {"id":0,"result":["0xf035b61e1ebd10b8f491767e5efc24724798a91b1f8beefd5f4e3de26d08ac98","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86621"],"error":null}
+2021.08.31:09:41:35.081: eths Eth: New job #f035b61e from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:36.142: eths Eth: Received: {"id":0,"result":["0x6929c5dd6794be7a70de61c8a34f79d1dbc750cb5d0564707a4385ea01ae4433","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86622"],"error":null}
+2021.08.31:09:41:36.142: eths Eth: New job #6929c5dd from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:36.333: eths Eth: Received: {"id":0,"result":["0x231178a84612638cc57826821b9631d2a393a5abaa9f80a784fc7e72bdcfb03a","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86622"],"error":null}
+2021.08.31:09:41:36.333: eths Eth: New job #231178a8 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:39.269: eths Eth: Received: {"id":0,"result":["0x46fe1d085d8e9265f870a49fe9f1a1f77149261c851c2771c8cf386a2d642a67","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86622"],"error":null}
+2021.08.31:09:41:39.269: eths Eth: New job #46fe1d08 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:39.627: main Eth speed: 30.264 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:41:43.079: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:41:43.102: eths Eth: Received: {"id":6,"result":true,"error":null}
+2021.08.31:09:41:43.102: eths Eth: Received: {"id":5,"result":["0x46fe1d085d8e9265f870a49fe9f1a1f77149261c851c2771c8cf386a2d642a67","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86622"],"error":null}
+2021.08.31:09:41:44.778: main Eth speed: 30.344 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:41:46.526: eths Eth: Received: {"id":0,"result":["0x7e518c7cabebb4f7afbb55ee269c4cf0e425ec05523f82ac70a58159069fa782","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86622"],"error":null}
+2021.08.31:09:41:46.526: eths Eth: New job #7e518c7c from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:46.928: eths Eth: Received: {"id":0,"result":["0x65bc12cc4478dac05b197c84771c593bb9a637187429e1526e3c809caa5c237c","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86623"],"error":null}
+2021.08.31:09:41:46.928: eths Eth: New job #65bc12cc from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:48.775: eths Eth: Received: {"id":0,"result":["0x76b7911559a21ae39b78f668a0fe8763ec0e44247f59d6123932c6569173a158","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86624"],"error":null}
+2021.08.31:09:41:48.775: eths Eth: New job #76b79115 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:49.969: main Eth speed: 31.061 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:41:52.044: eths Eth: Received: {"id":0,"result":["0xc5fa2d0ea27c14c7b45239b03ebbc71600df7f603a423c51803333da56e03aad","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86624"],"error":null}
+2021.08.31:09:41:52.044: eths Eth: New job #c5fa2d0e from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:41:53.084: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:41:53.084: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0x7acf166a8736cd052e326f5017477a2689cc23c990d71511934bafc696e2b864"]}
+
+2021.08.31:09:41:53.104: eths Eth: Received: {"id":5,"result":["0xc5fa2d0ea27c14c7b45239b03ebbc71600df7f603a423c51803333da56e03aad","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86624"],"error":null}
+2021.08.31:09:41:55.115: main Eth speed: 31.248 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:41:58.980: eths Eth: Received: {"id":0,"result":["0xa5be00492b6c1deedb9f7acaf01e65422e19b08c6acd4883d7301a10f4e76021","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86624"],"error":null}
+2021.08.31:09:41:58.980: eths Eth: New job #a5be0049 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:42:00.140: main Eth speed: 31.295 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:42:02.841: main GPU1: 54C 48% 81W
+GPUs power: 80.9 W; 387 kH/J
+2021.08.31:09:42:03.046: main  
+2021.08.31:09:42:03.046: main *** 0:01 *** 8/31 09:42 **************************************
+2021.08.31:09:42:03.047: main Eth: Mining ETH on ssl://eth-br.flexpool.io:5555 for 0:01
+2021.08.31:09:42:03.047: main 1 GPU(s) are auto-tuning. Hashrate may be low until they are ready.
+2021.08.31:09:42:03.047: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.08.31:09:42:03.047: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.08.31:09:42:03.047: main Eth: Maximum difficulty of found share: 65.3 GH (!)
+2021.08.31:09:42:03.047: main Eth: Average speed (5 min): 0.000 MH/s
+2021.08.31:09:42:03.047: main Eth: Effective speed: 44.44 MH/s; at pool: 44.44 MH/s
+2021.08.31:09:42:03.047: main  
+2021.08.31:09:42:03.094: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:42:03.116: eths Eth: Received: {"id":6,"result":true,"error":null}
+2021.08.31:09:42:03.116: eths Eth: Received: {"id":5,"result":["0xa5be00492b6c1deedb9f7acaf01e65422e19b08c6acd4883d7301a10f4e76021","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86624"],"error":null}
+2021.08.31:09:42:04.063: eths Eth: Received: {"id":0,"result":["0xfcb94581c9a7b2780e2452bef0399375df1fdcc953b41c1dec8d4464d9117893","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86625"],"error":null}
+2021.08.31:09:42:04.064: eths Eth: New job #fcb94581 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:42:04.274: eths Eth: Received: {"id":0,"result":["0x2ba73f1191b7329acf478c8d3764c94363c8a362436f3c07ac1d84725ca21842","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86625"],"error":null}
+2021.08.31:09:42:04.274: eths Eth: New job #2ba73f11 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:42:05.332: main Eth speed: 31.227 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:42:06.804: eths Eth: Received: {"id":0,"result":["0x52340c07332507c0470f9d15eda456df2bf2e742af0f893d5d4fce82291080a5","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86626"],"error":null}
+2021.08.31:09:42:06.804: eths Eth: New job #52340c07 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:42:10.122: eths Eth: Received: {"id":0,"result":["0x163217abd86828586195f203850c20551608dd39fad456996acc9e16cbd26234","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86626"],"error":null}
+2021.08.31:09:42:10.122: eths Eth: New job #163217ab from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:42:10.460: main Eth speed: 30.950 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:42:13.106: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:42:13.106: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0","0x7acf166a8736cd052e326f5017477a2689cc23c990d71511934bafc696e2b864"]}
+
+2021.08.31:09:42:13.124: eths Eth: Received: {"id":5,"result":["0x163217abd86828586195f203850c20551608dd39fad456996acc9e16cbd26234","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86626"],"error":null}
+2021.08.31:09:42:15.573: main Eth speed: 31.047 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:42:18.057: eths Eth: Received: {"id":0,"result":["0x0197d1422e1d52d26bb12ea3fa85a6619cccae36d830e1ec3c10d63c36c32af1","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86626"],"error":null}
+2021.08.31:09:42:18.057: eths Eth: New job #0197d142 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:42:19.852: eths Eth: Received: {"id":0,"result":["0x9f5dfdd05591d5674e02ce4ec8465e562837540fbb8050b3f57cea30716dedaf","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86626"],"error":null}
+2021.08.31:09:42:19.852: eths Eth: New job #9f5dfdd0 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:42:20.731: main Eth speed: 31.329 MH/s, shares: 1/0/0, time: 0:01
+2021.08.31:09:42:23.015: eths Eth: Received: {"id":0,"result":["0x03d2fa7681ad39629656463f5d3f602b179102b0dd284a7b7c4b7aa59d821246","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86626"],"error":null}
+2021.08.31:09:42:23.015: eths Eth: New job #03d2fa76 from ssl://eth-br.flexpool.io:5555; diff: 4000MH
+2021.08.31:09:42:23.118: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.08.31:09:42:23.243: eths Eth: Received: {"id":6,"result":true,"error":null}
+2021.08.31:09:42:23.244: eths Eth: Received: {"id":5,"result":["0x03d2fa7681ad39629656463f5d3f602b179102b0dd284a7b7c4b7aa59d821246","0x172b3feae2c153ea1956a5bdd2d115057357dbbbbedf3d48d5de1b649a2ba6bd","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xc86626"],"error":null}
+2021.08.31:09:42:25.477: unkn Quitting...
+2021.08.31:09:42:25.477: unkn GPU1 auto-tune process aborted
+2021.08.31:09:42:26.131: wdog Stopping watchdog thread
+2021.08.31:09:42:26.132: main Exit code: 0
